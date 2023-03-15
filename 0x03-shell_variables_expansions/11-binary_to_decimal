@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "0b%s\n" "$(echo "obase=2; $((num1 + num2))" | bc)"
+echo $((2#BINARY))
