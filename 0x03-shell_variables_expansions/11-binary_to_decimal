@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "obase=2;$ip1" | bc
+printf "0b%s\n" "$(echo "obase=2; $((num1 + num2))" | bc)"
